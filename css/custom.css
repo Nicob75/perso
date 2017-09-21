@@ -48,6 +48,10 @@ body {
     font-size: 16px;
 }
 
+ul.table-content-list > li {
+    list-style: none;
+}
+
 /*** NAVBAR ***/
 #mainNav a:hover {
     color: #9CFFD7;
