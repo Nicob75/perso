@@ -67,7 +67,7 @@ section.bg-primary hr {
 }
 
 section.bg-primary p {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,1);
 }
 
 /***   TITLE TIP   ***/
@@ -109,6 +109,11 @@ section.bg-primary p {
 }
 
 /*** ICON PICTURE ***/
+.main-icon {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 .icon-picture {
     border-radius: 200px;
     border-style: solid;
