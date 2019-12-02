@@ -1,0 +1,12 @@
+{
+  "short_name": "Nicolas BARTHELEMY",
+  "name": "Home - Nicolas BARTHELEMY",
+  "icons": [
+    {
+      "src": "img/icons/site_icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html"
+}
