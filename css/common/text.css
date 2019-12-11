@@ -1,0 +1,105 @@
+/*
+ * Text css
+ */
+
+ /*** COMMON ***/
+.main-title {
+    color: #2B8;
+    /*font-family: "Century Gothic";*/
+    font-family: "Freestyle script";
+}
+
+.main-description {
+    /*color: #555;*/
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.text-highlight {
+    color: #22BB88;
+    font-size: 16px;
+}
+
+.my-header-projects-text {
+    /*color: #283ddd;*/
+    color: #bbf;
+    font-weight: bold;
+}
+
+
+/*** BUBBLE CAPTION ***/
+.bubble-caption {
+    opacity: 0;
+}
+
+.bubble-caption:hover {
+    opacity: 0.8;    
+}
+
+
+/*** WEBSITE FANCY LINK ***/
+.arrow-icon-spacing {
+    margin-left: 16px;
+    margin-right: 16px;
+    transition: all .2s ease-in-out
+}
+
+a:hover .arrow-icon-spacing {
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: all .2s ease-in-out
+}
+
+.website-fancy-link .glyphicon{
+    color: #435583;
+}
+
+a.website-fancy-link {
+    text-decoration: none !important;
+}
+
+.only-hover:hover {
+    text-decoration: underline;
+}
+
+.logo-club {    
+    max-height: 128px;
+    display: inline;
+}
+
+@media(max-width:540px) {
+    .logo-club {    
+        max-height: 80px;
+        display: inline;
+    }
+
+    .arrow-icon-spacing {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    a:hover .arrow-icon-spacing {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+}
+
+
+/*** BLACK SHADOW TEXT ***/
+.black-shadow-text {
+    text-shadow: 
+        -1px -1px 0px #000,
+        0px -1px 0px #000,
+        1px -1px 0px #000,
+        -1px 0px 0px #000,
+
+        1px 0px 0px #000,
+        -1px 1px 0px #000,
+        0px 1px 0px #000,
+        1px 1px 0px #000;
+}
+
+.black-shadow-text b strong {
+    font-size: 20px;
+}

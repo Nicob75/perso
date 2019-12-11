@@ -1,0 +1,36 @@
+/*
+ * Aside css
+ */
+
+/***   ASIDE TIP   ***/
+.aside-tip {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #777;
+    color: #ddd;
+}
+
+.aside-tip p {
+    margin: 0;
+}
+
+.aside-tip .row {
+    display: table;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+.aside-tip .row > div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+/*** TITLE-ASIDE ***/
+.title-aside {
+	padding: 30px 0 10px 0;
+}
+
+.title-aside-secondary {
+	padding: 5px 0 5px 0;	
+}

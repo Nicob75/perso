@@ -1,0 +1,89 @@
+/*
+ * Common css
+ */
+
+@import "aside.css";
+@import "icons.css";
+@import "text.css";
+
+/*** MISC ***/
+body {
+    font-family: Arial !important;
+}
+
+/*** ALIGN/POSITION ***/
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    /*vertical-align: middle;*/
+}
+
+.hcenter {
+    display: inline-block;
+    text-align: center;
+    /*float: none;*/
+}
+
+@media(max-width:769px) {
+	.no-mobile-768 {
+		display: none !important;
+	}
+}
+
+@media(max-width:400px) {
+    .no-mobile-400 {
+        display: none;
+    }
+}
+
+ul.table-content-list > li {
+    list-style: none;
+}
+
+
+/*** NAVBAR ***/
+#mainNav a:hover {
+    color: #9CFFD7;
+}
+
+.no-mobile-768 {
+    pointer-events: none;
+}
+
+
+/*** SECTIONS ***/
+section.bg-primary hr {
+    border-color: #fff;
+}
+
+section.bg-primary p {
+    color: rgba(255,255,255,1);
+}
+
+
+/*** OTHER (TO CLASS) ***/
+.video-quality-select {
+    color: black;
+}
+
+
+/*** PORTFOLIO BOX ***/
+.portfolio-box {
+	max-width: 100%;
+}
+
+.portfolio-box img {
+	width: 100%;
+}
+
+@media(max-width:769px) {
+    .portfolio-box-caption.portfolio-no-hover {
+        opacity: 1 !important;
+        background-color: rgba(0,0,0,0) !important;
+    }
+}
+
+/*.home_projects_picture {
+    width: 720px;
+}*/
