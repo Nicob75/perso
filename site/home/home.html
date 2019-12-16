@@ -50,20 +50,26 @@
                 </button>
                 <a class="navbar-brand" href="#page-top">
                     <img class="img-responsive navbar-icon" src="../../img/common/icons/site_icon.png">
-                    Nicolas BARTHELEMY
+                    Nicolas B
                 </a>
+                <span class="navbar-brand no-pointer-events">
+                    -
+                </span>
+                <span class="navbar-brand no-pointer-events">
+                    HOME
+                </span>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#page-top">
+                        <a class="page-scroll navbar-height" href="#page-top">
                             Intro
-                            <img class="img-responsive navbar-icon" src="../../img/common/icons/home_icon.png">
+                            <img class="img-responsive navbar-icon home-icon" src="../../img/common/icons/home_icon.png">
                         </a>
                     </li>
-                    <li class="no-mobile-768">
+                    <li class="no-mobile-768 no-pointer-events">
                         <a>|</a>
                     </li>
                     <li>
@@ -89,72 +95,50 @@
         <img src="../../img/common/icons/down_arrow.png">
     </a>
 
-    <header style="background-image: url(../../img/home/ny_header.jpg);">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <div class="row">
-                    <!-- <div class="col-md-8 vcenter"> -->
-                        <h1 class="main-title  ">Nicolas BARTHELEMY</h1>
-                    <!-- </div>
-                    <div class="col-md-4 vcenter">
-                        
-                    </div> -->
-                </div>
-                <div class="row">
-                    <hr>
-                    <div class="main-description black-shadow-text">
-                        Welcome to my personal web page ! <br/>                        
-                        Take a look at videos of my 
-                        <a href="#computer-graphics" class="page-scroll">projects</a>,
-                        or try some of them !<br/>
-                        You can also take a look at my other <a href="#football-aside-secondary" class="page-scroll">website</a> (of my football club) !
+    <!-- <header style="background-image: url(../../img/home/ny_header.jpg); ">
+        <div style="width: 100%; margin: 0 auto; position: absolute; top: 22%;"> -->
+    <header class="h-100-vh" style="background-image: url(../../img/home/ny_header.jpg);">
+        <div class="main-title">
+            <span>Welcome to my online showcase !</span>
+            <hr class="light">
+        </div>
+
+        <div class="header-content h-100">
+            <div class="header-content-inner h-100">
+                <div class="container container-align-vertical w-100 h-100">
+                    <div class="row child-align-vertical w-100" >
+                        <div class="col-sm-offset-0 col-sm-3 col-xs-offset-2 col-xs-4 icon-picture-div">
+                            <a href="#profile" class="page-scroll ">
+                                <img class="img-responsive icon-picture" src="../../img/home/icons/profile_icon.png" alt="profile icon">
+                                <!-- <div class="bubble-caption">
+                                    <div class="project-category text-faded">
+                                        Profile
+                                    </div>
+                                </div> -->
+                            </a>
+                            <span class="header-icon-legend">Profile</span>
+                        </div>
+                        <div class="col-sm-3 col-xs-4 icon-picture-div">
+                            <a href="#projects" class="page-scroll"><img class="img-responsive icon-picture" src="../../img/home/icons/computer_icon.png" alt="projects icon"></a>
+                            <span class="header-icon-legend">Projects</span>
+                        </div>
+                        <div class="col-sm-offset-0 col-sm-3 col-xs-offset-2 col-xs-4 icon-picture-div">
+                            <a href="#activities-aside" class="page-scroll"><img class="img-responsive icon-picture" src="../../img/home/icons/activity_icon.png" alt="activity icon"></a>
+                            <span class="header-icon-legend">Activities</span>
+                        </div>
+                        <div class="col-sm-3 col-xs-4 icon-picture-div">
+                            <a href="#contact" class="page-scroll"><img class="img-responsive icon-picture" src="../../img/home/icons/contact_icon.png" alt="contact icon"></a>
+                            <span class="header-icon-legend">Contact</span>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-2">
-                        <a href="#profile" class="page-scroll ">
-                            <img class="img-responsive icon-picture" src="../../img/home/icons/profile_icon.png" alt="profile icon">
-                            <!-- <div class="bubble-caption">
-                                <div class="project-category text-faded">
-                                    Profile
-                                </div>
-                            </div> -->
-                        </a>
-                        <span class="header-icon-legend">Profile</span>
-                    </div>
-                    <div class="col-sm-3 col-sm-offset-0 col-xs-4">
-                        <a href="#projects" class="page-scroll"><img class="img-responsive icon-picture" src="../../img/home/icons/computer_icon.png" alt="projects icon"></a>
-                        <span class="header-icon-legend">Projects</span>
-                    </div>
-                    <div class="col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-2">
-                        <a href="#activities-aside" class="page-scroll"><img class="img-responsive icon-picture" src="../../img/home/icons/activity_icon.png" alt="activity icon"></a>
-                        <span class="header-icon-legend">Activities</span>
-                    </div>
-                    <div class="col-sm-3 col-sm-offset-0 col-xs-4">
-                        <a href="#contact" class="page-scroll"><img class="img-responsive icon-picture" src="../../img/home/icons/contact_icon.png" alt="contact icon"></a>
-                        <span class="header-icon-legend">Contact</span>
-                    </div>
-                </div>
-                <div class="black-shadow-text">
-                    <br/>
-                    <b>
-                        This website is <span class="text-highlight">responsive</span>:
-                        try it on <span class="text-highlight">mobile</span>, 
-                        <span class="text-highlight">tablet</span> 
-                        or <span class="text-highlight">computer</span> ;)
-                    </b>
-                    <br/><b>Coming soon : test some other projects, see more of my profile, my professional and personal projects, my activities, my trips...</b>
-                    <br/>
-                    <br/><span id="spanLastUpdate"><b>Last update : XXX</b></span>
-                </div>
-                <!-- <div>
-                    <a class="page-scroll" href="#profile">
-                        <img style="width:64px; height:64px; opacity:0.8; position:relative; left: 100px; float:right;" src="../../img/icons/down_arrow.png">
-                    </a>
-                </div> -->
-                
             </div>
         </div>
+
+        <div style="width: 100%; margin: 0 auto; position: absolute; bottom: 24px;">
+            <span id="spanLastUpdate"><b>Last update : XXX</b></span>
+        </div>
+        
     </header>
 
     <section class="bg-primary" id="profile">
