@@ -25,6 +25,12 @@ body {
     height: 100vh;
 }
 
+/*** SPACING ***/
+.no-horizontal-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
 /*** ALIGN/POSITION ***/
 .vcenter {
     display: inline-block;
