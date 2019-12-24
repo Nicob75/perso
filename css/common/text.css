@@ -26,20 +26,20 @@
 
  /*** COMMON ***/
 .main-title {
-    width: 100%; 
+    /*width: 100%; 
     margin: 0 auto; 
     position: absolute; 
-    top: 22%;
+    top: 22%;*/
 }
 
-@media (max-width: 768px) {
-    .main-title {
-        top: 15%;
+@media (min-width: 768px) {
+    .row .main-title {
+        vertical-align: bottom;
     }
 }
 
 .main-title > span {
-    color: white;
+    /*color: white;*/
     font-family: "Roboto Medium";
     font-size: 35px;
 }
@@ -53,7 +53,7 @@
 
 .text-highlight {
     color: #22BB88;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .my-header-projects-text {
