@@ -41,15 +41,21 @@
 .main-title > span {
     /*color: white;*/
     font-family: "Roboto Medium";
-    font-size: 35px;
+    /*font-size: 35px;*/
+    font-size: 42px;
 }
 
-.main-description {
-    /*color: #555;*/
+@media (min-width: 768px) {
+    .main-title > span {
+        font-size: 46px;
+    }
+}
+
+/*.main-description {
     font-weight: bold;
     font-size: 20px;
     margin: 20px;
-}
+}*/
 
 .text-highlight {
     color: #22BB88;

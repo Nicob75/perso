@@ -40,11 +40,17 @@ a:hover .icon-picture {
     filter: brightness(0.6);
 }
 
-.header-icon-legend {
+.icon-picture-legend {
     color: #fff;
     font-weight: 700 !important;
-    font-size: 24px;
+    font-size: 20px;
     display: inherit;
+}
+
+@media (min-width:768px) {
+    .icon-picture-legend {
+        font-size: 24px;
+    }
 }
 
 @media (min-width:768px) {
