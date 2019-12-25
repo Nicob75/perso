@@ -42,7 +42,7 @@
     /*color: white;*/
     font-family: "Roboto Medium";
     /*font-size: 35px;*/
-    font-size: 42px;
+    font-size: 40px;
 }
 
 @media (min-width: 768px) {
@@ -59,7 +59,7 @@
 
 .text-highlight {
     color: #22BB88;
-    font-size: 30px;
+    /*font-size: 30px;*/
 }
 
 .my-header-projects-text {
@@ -69,13 +69,23 @@
 }
 
 
-/*** BUBBLE CAPTION ***/
-.bubble-caption {
-    opacity: 0;
+/*** PICTURE TOOLTIP ***/
+.picture-tooltip-icon > .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    border: solid 1px #fff;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
 }
 
-.bubble-caption:hover {
-    opacity: 0.8;    
+.picture-tooltip-icon:hover > .tooltip-text {
+   visibility: visible;
 }
 
 
