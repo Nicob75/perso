@@ -82,6 +82,7 @@
     position: absolute;
     z-index: 1;
     bottom: 80%;
+    opacity: 0.7;
 }
 
 .picture-tooltip-icon:hover > .tooltip-text {
