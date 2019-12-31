@@ -4,5 +4,5 @@
  * 
  */
 
-var strLastUpdate = "Dec 2019";
+var strLastUpdate = "December 2019";
 
