@@ -29,12 +29,14 @@ body {
 .h-100 {height: 100%;}
 
 /*** SPACING ***/
-header {
-    padding-top: 50px;
-}
+@media (min-width: 768px) {
+    header {
+        padding-top: 50px;
+    }
 
-header .header-content {
-    position: relative;
+    header .header-content.position-relative {
+        position: relative;
+    }
 }
 
 .no-horizontal-padding {
@@ -84,7 +86,13 @@ header .header-content {
     }
 }
 
-ul.table-content-list > li {
+@media (max-width: 767px) {
+    header ul.table-content-list {
+        padding-left: 0px;
+    }
+}
+
+header ul.table-content-list > li {
     list-style: none;
 }
 

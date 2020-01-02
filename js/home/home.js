@@ -4,7 +4,7 @@
  * 
  */
 
-var aTopSection = '#profile';
+var aTopSection = '#about';
 var amountScrolled = 100;
 
 var spanLastUpdate = document.getElementById('spanLastUpdate');
