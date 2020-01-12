@@ -29,12 +29,31 @@ body {
 .h-100 {height: 100%;}
 
 /*** SPACING ***/
+header {
+    height: 100%;
+}
+
+header .header-content {
+    height: 100%;
+    /*.container-align-vertical*/
+    display: table;
+    table-layout: fixed;
+    margin: auto;
+}
+
+header .header-content .header-content-inner {
+    /*.child-align-vertical*/
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
 @media (min-width: 768px) {
     header {
         padding-top: 50px;
     }
 
-    header .header-content.position-relative {
+    header .header-content {
         position: relative;
     }
 }
@@ -45,11 +64,11 @@ body {
 }
 
 /*** ALIGN/POSITION ***/
-.vcenter {
+/*.vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
-}
+}*/
 
 .container-align-vertical {
     display: table;
@@ -134,9 +153,9 @@ section.bg-primary p {
 }
 
 /*.no-mobile-768 {*/
-.no-pointer-events {    
+/*.no-pointer-events {    
     pointer-events: none;
-}
+}*/
 
 
 /*** PORTFOLIO BOX ***/
