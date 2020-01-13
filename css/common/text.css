@@ -39,10 +39,20 @@
 }
 
 .main-title > span {
-    /*color: white;*/
     font-family: "Roboto Medium";
-    /*font-size: 35px;*/
-    font-size: 40px;
+    font-size: 24px;
+}
+
+@media (min-width: 330px) {
+    .main-title > span {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 362px) {
+    .main-title > span {
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 768px) {

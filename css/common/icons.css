@@ -43,17 +43,21 @@ a:hover .icon-picture {
 .icon-picture-legend {
     color: #fff;
     font-weight: 700 !important;
-    font-size: 20px;
+    font-size: 16px;
     display: inherit;
 }
 
-@media (min-width:768px) {
+@media (min-width: 362px) {
     .icon-picture-legend {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
+    .icon-picture-legend {
+        font-size: 24px;
+    }
+
     .header-icon-legend {
        position: relative;
        top: 5px;
