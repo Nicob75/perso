@@ -178,3 +178,16 @@ section.bg-primary p {
         opacity: 0 !important;
     }
 }
+
+/*** BTN ***/
+.btn:hover {
+    background-color: #999;
+}
+
+.btn img {
+    width: 40px;
+}
+
+.btn span {
+    font-size: 36px;
+}
