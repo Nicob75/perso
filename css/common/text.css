@@ -61,11 +61,11 @@
     }
 }
 
-/*.main-description {
-    font-weight: bold;
+.main-description {
+    
     font-size: 20px;
-    margin: 20px;
-}*/
+    font-weight: 600;
+}
 
 .text-highlight {
     color: #22BB88;
