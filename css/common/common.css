@@ -77,6 +77,12 @@ header .header-content .header-content-inner {
     padding-right: 0px !important;
 }
 
+@media (max-width: 767px) {
+    .reduced-padding-top-768 {
+        padding-top: 50px !important;
+    }
+}
+
 /*** ALIGN/POSITION ***/
 /*.vcenter {
     display: inline-block;

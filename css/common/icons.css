@@ -19,6 +19,7 @@
     background-color: #fff;
     display: inline-block;
     opacity: 0.9;
+    width: 128px;
 }
 
 .icon-picture-div {
@@ -36,8 +37,8 @@
 @media (min-width:480px) {
     .icon-picture {
         border-width: 8px;
-        max-width: 128px;
-        max-height: 128px;
+        /*max-width: 128px;
+        max-height: 128px;*/
     }
 }
 
