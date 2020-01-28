@@ -2,7 +2,7 @@
  * Some custom javascript
  */
 
-var aTopSection = '#information';
+var aTopSection = '#about';
 var amountScrolled = 100;
 
 /* 
