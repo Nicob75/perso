@@ -135,6 +135,9 @@ header ul.table-content-list > li {
     list-style: none;
 }
 
+.fixed-height {
+    height: 1px;
+}
 
 /*** NAVBAR ***/
 .nav > li > a, .navbar-brand {

@@ -166,6 +166,11 @@ a.back-to-top:hover img {
     width: 42px;
 }
 
+.small-icon:hover {
+    width: 50px;
+}
+
+
 .navbar-icon {
     width: 24px;
     display: inline-block !important;
