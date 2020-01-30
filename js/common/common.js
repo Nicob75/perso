@@ -8,7 +8,9 @@
 $( ".header-content-inner .picture-tooltip-icon" ).hover(
   function() {
     $(this).siblings().css({opacity: 0.1});
+    $(".header-fog").css({opacity: 0});
   }, function() {
   	$(this).siblings().css({opacity: 1});
+  	$(".header-fog").css({opacity: 0.3});
   }
 );
