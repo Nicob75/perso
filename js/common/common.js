@@ -14,3 +14,7 @@ $( ".header-content-inner .picture-tooltip-icon" ).hover(
   	$(".header-fog").css({opacity: 0.3});
   }
 );
+
+$(document).ready(function(){
+   $('video').bind('contextmenu',function() { return false; });
+});
