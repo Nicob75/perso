@@ -108,7 +108,14 @@
 /*** WEBSITE FANCY LINK ***/
 section.website-fancy-link {
     padding: 2em 0em;
-    font-size: x-large;
+    font-size: large;
+}
+
+@media (min-width: 768px) {
+    section.website-fancy-link {
+        padding: 2em 0em;
+        font-size: x-large;
+    }
 }
 
 .arrow-icon-spacing {
