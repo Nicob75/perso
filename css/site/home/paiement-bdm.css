@@ -1,0 +1,11 @@
+
+
+.responsive-frame {
+	height: 860px;
+}
+
+@media (max-width: 479px) {	
+	.responsive-frame {
+		height: 340px;
+	}
+}

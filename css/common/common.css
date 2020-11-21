@@ -113,6 +113,12 @@ header .header-content .header-content-inner {
     bottom: 12px;
 }
 
+@media (min-width: 768px) {
+    .mobile-only-768 {
+        display: none !important;
+    }
+}
+
 @media (max-width: 767px) {
 	.no-mobile-768 {
 		display: none !important;
